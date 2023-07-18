@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f09090;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #005971;
+    padding: 10px;
+    border: 2px solid #005971;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #005971;
+    color: white;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-color: #bde4a7;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    color: #005971;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    color: #ac0cac;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    background-color: #005971;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #dee3f7;
+    color: #ac0cac;
+  }
+  
+  /* Resources Section Styles */
+  #resources {
+    background-color: #dee3f7;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #resources h2 {
+    color: #ac0cac;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* About Section Styles */
+  #about {
+    background-color: #ac0cac;
+    color: white;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Visualizations Section Styles */
+  #visualizations {
+    background-color: #005971;
+    color: white;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #visualizations h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #visualizations p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
