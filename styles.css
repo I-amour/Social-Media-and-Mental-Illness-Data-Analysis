@@ -1,117 +1,128 @@
-/* Global Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
-  /* Header Styles */
-  header {
-    background-color: #f09090;
-    padding: 20px;
+  #hero {
+    background-color: #7a9cc6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
   
-  nav ul {
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  
+  .title-box-f {
+    text-align: center;
+    background-color: #7d3fb4;
+    color: #a1ecf5;
+    border-radius: 50px;
+    border: 4px solid #7d3fb4;
+    width: 505px;
+    padding: 15px 20px;
+    font-size: 64px;
+    margin-bottom: 50px;
+    transform: rotate(-5deg);
+  }
+  
+  .title-box-m {
+    background-color: #7d3fb4;
+    text-align: center;
+    color: #a1ecf5;
+    border-radius: 50px;
+    border: 4px solid #7d3fb4;
+    width: 505px;
+    padding: 15px 20px;
+    font-size: 64px;
+    margin-bottom: 20px;
+    transform: rotate(5deg);
+  }
+  
+  .title-box h1,
+  .title-box h2 {
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 200px;
+  }
+  
+  .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
   
-  nav ul li {
-    display: inline-block;
-    margin-left: 20px;
+  .navbar li {
+    margin: 10px;
   }
   
-  nav ul li a {
+  .navbar a {
     text-decoration: none;
-    color: #005971;
-    padding: 10px;
-    border: 2px solid #005971;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    background-color: #005971;
-    color: white;
-  }
-  
-  /* Hero Section Styles */
-  #hero {
-    background-color: #bde4a7;
-    text-align: center;
-    padding: 100px;
-  }
-  
-  #hero h1 {
-    font-size: 48px;
-    color: #005971;
-    margin-bottom: 20px;
-  }
-  
-  #hero p {
-    color: #ac0cac;
-    font-size: 24px;
-    margin-bottom: 40px;
-  }
-  
-  .button {
-    background-color: #005971;
-    color: white;
+    color: #7d3fb4;
+    border-radius: 50px;
+    border: 2px solid #a1ecf5;
     padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    text-decoration: none;
+    font-size: 32px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   }
   
-  .button:hover {
-    background-color: #dee3f7;
-    color: #ac0cac;
+  .navbar a:hover {
+    background-color: #faefc0;
+    color: #7d3fb4;
   }
   
-  /* Resources Section Styles */
+  .navbar img {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    height: 40px;
+  }
+  
+  section {
+    padding: 100px;
+    text-align: center;
+  }
+  
+  section p {
+    color: #333;
+    font-size: 24px;
+  }
+  
   #resources {
-    background-color: #dee3f7;
-    padding: 80px;
-    text-align: center;
+    font-size: 28px;
+    color: #7d3fb4;
+    background-color: #a1ecf5;
   }
   
-  #resources h2 {
-    color: #ac0cac;
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  
-  /* About Section Styles */
-  #about {
-    background-color: #ac0cac;
-    color: white;
-    padding: 80px;
-    text-align: center;
-  }
-  
-  #about h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  
-  /* Visualizations Section Styles */
   #visualizations {
-    background-color: #005971;
-    color: white;
-    padding: 80px;
-    text-align: center;
+    font-size: 28px;
+    color: #7d3fb4;
+    background-color: #e892f3;
   }
   
-  #visualizations h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
-  
-  #visualizations p {
-    font-size: 18px;
-    margin-bottom: 40px;
+  #about {
+    font-size: 28px;
+    color: #7d3fb4;
+    background-color: #faefc0;
   }
   
