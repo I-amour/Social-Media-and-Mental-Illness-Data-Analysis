@@ -125,4 +125,26 @@ body {
     color: #7d3fb4;
     background-color: #faefc0;
   }
+
+/* Back to Top button styles */
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: #ac0cac;
+  color: #dee3f7;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+#backToTopBtn:hover {
+  opacity: 0.8;
+}
+
   
