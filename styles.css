@@ -125,7 +125,6 @@ body {
     color: #7d3fb4;
     background-color: #faefc0;
   }
-
 /* Back to Top button styles */
 #backToTopBtn {
   display: none;
@@ -133,18 +132,27 @@ body {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  background-color: #ac0cac;
-  color: #dee3f7;
+  background-color: transparent;
   border: none;
-  border-radius: 50%;
-  padding: 10px 15px;
-  font-size: 18px;
+  padding: 0;
   cursor: pointer;
   transition: opacity 0.3s ease;
+}
+
+#backToTopBtn img {
+  width: 40px; /* Adjust the width of the image as needed */
+  height: 40px; /* Adjust the height of the image as needed */
 }
 
 #backToTopBtn:hover {
   opacity: 0.8;
 }
+/*The code above replaces the text inside the "Back to Top" button with an image (up.png). You can adjust the width and height of the image to fit your design. The JavaScript function to handle the scroll behavior remains the same as in the previous example. The button will show up when the user scrolls down and hide when they are at the top. Clicking the image will smoothly scroll the page back to the top.*/
+
+
+
+
+
+
 
   
